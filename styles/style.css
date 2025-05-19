@@ -1,3 +1,52 @@
-p {
-    background-color: rgb(206, 181, 43);
+/*
+1. отступы
+    - 0 header, cover, footer
+    - 24 lots, about
+    - 50
+    - 40
+    - 478 .
+    - 810 .
+    - 47 .
+
+2. оверлей(затенение) 
+    - 1100 757 cover
+    - 334 596 lot
+
+3. текст
+    - Raleway Regular 18
+    - Raleway Regular 20
+    - Raleway Regular 22
+    - Raleway Bold 22
+    - Raleway Bold 40
+    - Raleway Bold 100
+*/
+
+/*body{
+    display: grid;
+    grid-template-rows:auto;
+}*/
+
+header{
+    height: 293px;
+    background-color: blue;
+}
+.cover{
+    height: 757px;
+    background-color: green;
+}
+.lots{
+    width: 1052px;
+    height: 723px;
+    background-color: red;
+    margin: auto;
+}
+.about{
+    width: 1052px;
+    height: 595px;
+    background-color: yellow;
+    margin: auto;
+}
+footer{
+    height: 180px;
+    background-color: brown;
 }
