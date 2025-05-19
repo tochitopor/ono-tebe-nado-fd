@@ -21,54 +21,29 @@
     - Raleway Bold 100
 */
 
-header{
-    height: 293px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.header{
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items:center;
+    padding:20px 200px;
+    background-color: blue;
+    height:293px;
 }
-.navigation{
-    display: flex;
-    justify-content: space-between;
-    column-gap:10px;
-    font-family:'Raleway', 'Arial', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    line-height:100%;
-    letter-spacing:0;
+.nav{
+    display:flex;
+    column-gap:20px;
+}
+a{
+    /*display:block;*/
+    width: 148px;
+}
 
-    background-color: red;
-}
-.logo{
-    background-color: red;
-}
-.cover{
-    height: 757px;
-    background-image: url("../images/cover.jpg");
-    background-position: center;
-    background-size: cover;
-}
-.lots{
-    width: 1052px;
-    height: 723px;
-    background-color: red;
-    margin: auto;
-}
-.about{
-    width: 1052px;
-    height: 595px;
-    background-color: yellow;
-    margin: auto;
-}
-footer{
-    height: 180px;
-    background-color: brown;
-}
-.contacts{
-    list-style: none;
-    font-family:'Raleway', 'Arial', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    line-height:24.3px;
-    letter-spacing:0;
-}
+.cover{}
+
+.description{}
+
+.lots{}
+
+.about{}
+
+.footer{}
