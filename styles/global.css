@@ -20,6 +20,8 @@ p,
 ul,
 ol,
 li,
+div,
+span,
 blockquote {
   margin: 0;
   padding: 0;
