@@ -116,18 +116,38 @@
     align-self: end;
 }
 
-.no-letter-spacing{
+.no_letter_spacing{
     letter-spacing: 0;
 }
 
 .description{
-    padding-top: 120px;
+    width: 1000px;
+    height: 51px;
+    margin-top: 107px;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.description_font{
     font-weight: 400;
     font-size: 22px;
     letter-spacing: 0px;
     text-transform: uppercase;
-    word-spacing: 19px;
     color: #FFF;
+}
+
+.subtitle{
+    word-spacing: 18.7px;
+}
+
+.button{
+    width: 256px;
+    height: 51px;
+    border-style:solid;
+    border-color: white;
+    border-width: 1px;;
+    background-color: transparent;
 }
 
 .lots{}
