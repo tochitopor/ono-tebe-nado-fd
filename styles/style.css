@@ -47,10 +47,12 @@
     list-style: none;
     text-decoration: none;
 }
+
 .logo{
     width: 148px;
     height:105px;
 }
+
 .address{
     width: 240;
     font-size: 18px;
@@ -58,11 +60,18 @@
     letter-spacing: normal;
     padding-right: 39px;
 }
+
 .header_address{
     justify-self: end;
 }
 
-.cover_background{
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cover{
     height: 757px;
     background-image: url("../images/cover.jpg");
     position: relative;
@@ -150,8 +159,26 @@
     background-color: transparent;
 }
 
-.lots{}
+.lots{
+    width: 1052px;
+    height: 723px;
+    margin-top: 180px;
 
-.about{}
 
-.footer{}
+    background-color: aqua;
+}
+
+.about{
+    width: 1052px;
+    height: 595px;
+    margin-top: 120px;
+    
+    background-color: aquamarine;
+}
+
+.footer{
+    height: 180px;
+    margin-top: 180px;
+
+    background-color: fuchsia;
+}
