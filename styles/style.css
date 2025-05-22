@@ -166,7 +166,35 @@
     margin-top: 180px;
 
 
-    background-color: aqua;
+    /*background-color: aqua;*/
+}
+
+.lotts__title{
+    margin-left: 40px;
+
+    font-family: Raleway;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+
+    color: red;
+
+    /*letter-spacing: 1;*/
+    /*background-color: blue;*/
+}
+
+.card_list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap:25px;
+    list-style: none;
+}
+
+.card{
+    width: 334px;
+    height: 596px;
+    background-color: gray;
 }
 
 .about{
