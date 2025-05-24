@@ -168,21 +168,20 @@
     flex-direction:column;
     justify-content: space-between;
 
-
-
-    background-color: aqua;/**/
+    /*background-color: aqua;/**/
 }
 
 .lotts__title{
     margin-left: 40px;
-    /*margin-top: 3px;/**/
     font-family: Raleway;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 40px;
-    line-height: 100%;
+    line-height: 1.2;
 
-    /*align-self: center;*/
+
+
+    /*background-color: green;/**/
 
 }
 
@@ -191,8 +190,9 @@
     grid-template-columns: 1fr 1fr 1fr;
     column-gap:25px;
     list-style: none;
-
-    background-color: red;/**/
+    transform: translateY(-3px); /*не знаю, как иначе подровнять*/
+    
+    /*background-color: red;/**/
 }
 
 .card{
