@@ -198,8 +198,17 @@
 .card{
     width: 334px;
     height: 596px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+
+    padding: 48px 40px; /*<left, right> <top, bottom>*/
+
+
+    
     background-color: gray;
 }
+
 
 .more{
     margin-left: 40px;
