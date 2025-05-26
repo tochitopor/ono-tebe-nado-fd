@@ -16,7 +16,7 @@
   font-display: swap;
 }
 
-.font_raleway_regular_18{
+.font_raleway_regular_18 {
   font-family: Raleway;
   font-weight: 400;
   font-size: 18px;
@@ -24,7 +24,7 @@
   letter-spacing: 0%;
 }
 
-.font_raleway_regular_20{
+.font_raleway_regular_20 {
   font-family: Raleway;
   font-weight: 400;
   font-size: 20px;
@@ -32,7 +32,7 @@
   letter-spacing: 0%;
 }
 
-.font_raleway_bold_22{
+.font_raleway_bold_22 {
   font-family: Raleway;
   font-weight: 700;
   font-size: 22px;
@@ -44,7 +44,7 @@
   text-decoration-thickness: 2px;
 }
 
-.font_raleway_bold_40{
+.font_raleway_bold_40 {
   font-family: Raleway;
   font-weight: 700;
   font-size: 40px;
