@@ -2,9 +2,9 @@
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
-    padding-left: 50px; 
+    padding-left: 50px;
     padding-right: 46px;
-    padding-top: 0px; 
+    padding-top: 0px;
     padding-bottom: 5px;
     height: 293px;
 }
