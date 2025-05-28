@@ -156,7 +156,7 @@
 .card_list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 25px;
+    gap: 25px;
     list-style: none;
 }
 
@@ -193,29 +193,24 @@
     z-index: 2;
 }
 
-.card_lot_1 {
+.card_pol_tomas_film {
     background-image: url("../images/card-lot-01.jpg");
 }
 
-.card_lot_2 {
+.card_willis_james_book {
     background-image: url("../images/card-lot-02.jpg");
 }
 
-.card_lot_3 {
+.card_kandinsky_picture {
     background-image: url("../images/card-lot-03.jpg");
 }
 
 .more {
+    width: 192px;
     margin-left: 40px;
-    margin-top: 5px;
+    margin-top: 6px;
+    line-height: 22px;
     text-decoration: none;
-}
-.more_text {
-    font-family: Raleway;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 100%;
-    letter-spacing: 0;
     border-bottom: 1px solid;
 }
 
@@ -246,12 +241,10 @@
     margin-top: 139px;
 }
 
-.about__content__p1 {
+.about__text {
     margin-top: 105px;
-    padding-right: 5px;
 }
-
-.about__content__p2 {
+.about__paragraf {
     margin-top: 23px;
 }
 
